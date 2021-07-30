@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px) {
+  .header {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+  }
+  .header-left h1 {
+    margin-top: 0px;
+    margin-bottom: 2%;
+  }
+  .header-center {
+    width: 100%;
+    height:unset;
+    padding-bottom: 2%;
+    justify-content: center;
+  } 
+  .header-center > div {
+    padding-bottom: 1%;
+  }
+  .header-center > div:hover {
+    border-bottom: solid yellow 2px;
+  }
+  .header-right {
+    display: none;
+  } 
+  .main h2 {
+    margin-bottom: 70px;
+  }
+  .poster img {
+    border-radius: 2%;
+  }
+  .poster-text h3 {
+    margin: 0;
+  }
+  .poster {
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header-center > div {
+    font-size: small;
+  }
+}
