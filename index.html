@@ -2,249 +2,44 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="minimum-scale=1,initial-scale=1,width=device-width,shrink-to-fit=yes"/>
-  <title>ElbrusКино</title>
+  <meta name="viewport" content="minimum-scale=1,initial-scale=1,width=device-width,shrink-to-fit=no"/>
+  <title>Альпинист</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style-adaptive.css">
 </head>
-<body>  
-  <div class="content">
-    <div class="header">
-      <div class="header-left"><h1>ElbrusКино</h1></div>
-      <div class="header-center">
-        <div>Моё кино</div>
-        <div>Магазин</div>
-        <div>Мои покупки</div>
-        <div>          
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-          </svg>
-        </div>
-      </div>
-      <div class="header-right"><h1>Личный кабинет</h1></div>
+
+<body>
+  <div class="main">
+    <div class="background">
+      <img src="img/mountains.png" alt="mountains">
     </div>
-    <div class="main">
-      <div class="new-kino">
-        <div><h2>Новое в подписке</h2></div>
-        <div class="list-posters">
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/bryklin.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Бруклин</h3>
-              2019, Комедия
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/glass.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Очки</h3>
-              2019, Комедия
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/solo.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Пан Соло</h3>
-              2019, Комедия
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/starWars.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-              <div class="favorit"></div>
-            </div>
-            <div class="poster-text">
-              <h3>Звездные войны</h3>
-              2019, Комедия
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/Tilda_Swinton_as_Ancient_One.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Странный доктор</h3>
-              2019, Комедия
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/zveropolis.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Зверополис</h3>
-              2019, Мультфильм
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/Миньоны_(постер).jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Миньоны</h3>
-              2019, Мультфильм
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/мулан.jpeg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Мулан</h3>
-              2019, Приключения
-            </div>
-          </div>     
-        </div>
+    <img id="climber" src="img/climber.png" alt="climber">
+    <div class="steps">
+      <div class="step step-one"></div>
+      <div class="step step-two"></div>
+      <div class="step step-three"></div>
+      <div class="step step-four"></div>
+      <div class="step step-five"></div>
+      <div class="step step-six"><img id="win" src="img/win.gif" alt="win"></div>
+    </div>
+    <div class="results">
+      <h1>USERNAME</h1>
+      <div class="star"></div>
+      <h1 class="result">0</h1>
+    </div>
+    <div class="info">
+      <h1>УПРАВЛЕНИЕ</h1>
+      <img id="infowasd" src="img/wasd.png" alt="W-A-S-D">
+    </div>
+    <div class="blinds">
+      <div class="username">
+        <input type="text" placeholder="Имя пользователя"> 
       </div>
-      <div class="recommend-kino">
-        <div><h2>Рекомендуем посмотреть</h2></div>
-        <div class="list-posters">
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/bryklin.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Бруклин</h3>
-              2019, Комедия
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/glass.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Очки</h3>
-              2019, Комедия
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/solo.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Пан Соло</h3>
-              2019, Комедия
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/starWars.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Звездные войны</h3>
-              2019, Комедия
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/Tilda_Swinton_as_Ancient_One.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Странный доктор</h3>
-              2019, Комедия
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/zveropolis.jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Зверополис</h3>
-              2019, Мультфильм
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/Миньоны_(постер).jpg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Миньоны</h3>
-              2019, Мультфильм
-            </div>
-          </div>
-          <div class="poster">
-            <div class="poster-picture">
-              <div class="picture">
-                <img src="./img/мулан.jpeg" alt="">
-              </div>
-              <div class="grade">8,0</div>
-              <div class="plus"> <div class="plus-1"></div><div class="plus-2"></div><div class="plus-3">плюс</div> </div>
-            </div>
-            <div class="poster-text">
-              <h3>Мулан</h3>
-              2019, Приключения
-            </div>
-          </div>     
-        </div>
-      </div>
+      <div class="startdiv">Старт</div>
     </div>
   </div>
-
+  <div class="congrats">
+    <h1>Победа!</h1><p>Попробуем еще раз?</p>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
